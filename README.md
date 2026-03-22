@@ -1,5 +1,5 @@
 # Do_An_AI
 Bài tập nhóm
 # Cài đặt cơ bản
-`python -m venv .venv`
+Kích hoạt môi trường ảo: `.venv\Scripts\Activate.ps1`
 
