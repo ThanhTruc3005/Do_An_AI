@@ -1,1 +1,11 @@
 .venv/
+# Bỏ qua các file rác của Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Bỏ qua thư mục chứa model AI đã train xong (để không ghi đè não bộ của nhau)
+results/
