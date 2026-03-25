@@ -1,6 +1,6 @@
 # 🛠️ Hướng dẫn Setup Unity ML-Agents Toolkit
 
-Tài liệu này hướng dẫn các thành viên team **CTU** thiết lập môi trường để bắt đầu dự án. Vui lòng cài đặt theo đúng thứ tự bên dưới.
+
 
 ---
 
