@@ -20,7 +20,7 @@ Tài liệu này hướng dẫn các thành viên team **CTU** thiết lập mô
 Mở Terminal/PowerShell và thực hiện các lệnh sau:
 ```bash
 # Tạo môi trường ảo (Virtual Environment)
-python -m venv ml-agents
+python -3.10 -m venv ml-agents
 
 # Kích hoạt môi trường (Windows)
 ml-agents\Scripts\activate
