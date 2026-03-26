@@ -1,0 +1,41 @@
+# === Python (Virtual Environment) ===
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+Scripts/
+pyvenv.cfg
+*.pyc
+__pycache__/
+
+# === Unity Specific ===
+[Library]/
+[Temp]/
+[Obj]/
+[Build]/
+[Logs]/
+[UserSettings]/
+MemoryCaptures/
+Recorder/
+ExportedObj/
+.vs/
+.gradle/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.opendb
+*.IDB
+*.VC.db
+
+# === ML-Agents Results ===
+results/
+Summaries/
+models/
