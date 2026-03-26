@@ -1,0 +1,15 @@
+# Unity ML-Agents Toolkit Dependencies (Dành cho Python 3.10)
+# Cài đặt bằng lệnh: pip install -r requirements.txt
+
+# Bản stable nhất cho ML-Agents
+mlagents==0.30.0
+
+# PyTorch (Bản CPU để tương thích mọi máy trong nhóm)
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# Các thư viện hỗ trợ (Fix lỗi version trên Python 3.10)
+protobuf==3.20.3
+numpy==1.23.5
+six==1.16.0
