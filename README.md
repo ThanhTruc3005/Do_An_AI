@@ -1,47 +1,31 @@
 # Clone repo này về trước:
 vào thư mục cần lưu -> git clone https://github.com/ThanhTruc3005/Do_An_AI.git
 
-# 🛠️ Hướng dẫn Setup Unity ML-Agents Toolkit
+# 🎮 Đồ án Unity ML-Agents
 
-Tài liệu này hướng dẫn các thành viên team **CTU** thiết lập môi trường để bắt đầu dự án. Vui lòng cài đặt theo đúng thứ tự bên dưới.
+Hướng dẫn thiết lập môi trường phát triển cho các thành viên trong nhóm.
+
+## 📥 1. Các phần mềm cần cài đặt (Bắt buộc)
+
+| Phần mềm | Phiên bản | Link tải chính thức |
+| :--- | :--- | :--- |
+| **Unity Hub** | Bản mới nhất | [Download Unity Hub](https://unity.com/download) |
+| **Unity Editor** | **6.003.12f1 LTS** hoặc **6.003.11f1 LTS** | Cài qua Unity Hub (Tab Installs) |
+| **Python** | **3.10.x** | [Download Python 3.10.11](https://www.python.org/downloads/release/python-31011/) |
+| **Git** | Bản mới nhất | [Download Git for Windows](https://git-scm.com/download/win) |
 
 ---
 
-## 📋 1. Yêu cầu hệ thống (Prerequisites)
-- **Unity Editor**: Phiên bản `2021.3 LTS` trở lên.
-- **Python**: Phiên bản `3.8.x` đến `3.10.x` (Khuyến nghị **3.10.11**).
-- **Git**: Để clone và quản lý mã nguồn.
+### Bước 1: Thiết lập môi trường Python 3.10
+Mở Terminal tại thư mục project và chạy:
 
----
+1. Tạo môi trường ảo:
+   `py -3.10 -m venv venv`
 
-## 🛠️ 2. Các bước cài đặt chi tiết
+2. Kích hoạt môi trường (Windows):
+   `venv\Scripts\activate`
 
-### Bước 1: Thiết lập môi trường ảo Python
-Mở Terminal/PowerShell và thực hiện các lệnh sau:
-```bash
-# Tạo môi trường ảo (Virtual Environment)
-python -3.10 -m venv ml-agents
-
-# Kích hoạt môi trường (Windows)
-ml-agents\Scripts\activate
-
-# Cài đặt PyTorch (Bản CPU - Ổn định nhất cho đa số máy)
-pip3 install torch torchvision torchaudio
-
-# Cài đặt bộ công cụ ML-Agents
-pip3 install mlagents
+3. Cài đặt toàn bộ thư viện (Chỉ 1 lần duy nhất):
+   `pip install -r requirements.txt`
 
 
-Bước 2: Cài đặt SDK trong Unity
-Mở dự án bằng Unity Hub.
-
-Trên thanh menu, chọn Window > Package Manager.
-
-Nhấn dấu + (góc trái trên) > Add package by name...
-
-Nhập chính xác dòng sau: com.unity.ml-agents và nhấn Add.
-4. Kiểm tra cài đặt
-Sau khi hoàn tất, hãy gõ lệnh sau trong Terminal (đã kích hoạt venv):
-
-Bash
-mlagents-learn --help
