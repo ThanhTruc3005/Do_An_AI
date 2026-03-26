@@ -1,11 +1,11 @@
 # 🛠️ Hướng dẫn Setup Unity ML-Agents Toolkit
 
-
+Tài liệu này hướng dẫn các thành viên team **CTU** thiết lập môi trường để bắt đầu dự án. Vui lòng cài đặt theo đúng thứ tự bên dưới.
 
 ---
 
 ## 📋 1. Yêu cầu hệ thống (Prerequisites)
-- **Unity Editor**: Phiên bản `2021.3 LTS` trở lên thông qua Unity Hud.
+- **Unity Editor**: Phiên bản `2021.3 LTS` trở lên.
 - **Python**: Phiên bản `3.8.x` đến `3.10.x` (Khuyến nghị **3.10.11**).
 - **Git**: Để clone và quản lý mã nguồn.
 
@@ -29,6 +29,14 @@ pip3 install torch torchvision torchaudio
 pip3 install mlagents
 
 
+Bước 2: Cài đặt SDK trong Unity
+Mở dự án bằng Unity Hub.
+
+Trên thanh menu, chọn Window > Package Manager.
+
+Nhấn dấu + (góc trái trên) > Add package by name...
+
+Nhập chính xác dòng sau: com.unity.ml-agents và nhấn Add.
 4. Kiểm tra cài đặt
 Sau khi hoàn tất, hãy gõ lệnh sau trong Terminal (đã kích hoạt venv):
 
